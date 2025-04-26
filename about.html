@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cob Web - About</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active'); // Show or hide the menu
+        });
+    });
+</script>
+</head>
+<body>
+    <header>
+       <nav>
+    <div class="nav-brand">Cob Web</div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-toggle">&#9776;</div>
+</nav>
+        <div class="hero">
+            <h1>About Us</h1>
+            <p>Our Philosophy and Expertise</p>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Who We Are</h2>
+            <p>At Cob Web, we specialize in creating visually stunning and functional websites using modern design principles like responsive layouts, Glassmorphism, and dynamic animations.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Cob Web. Designed with passion and precision.</p>
+    </footer>
+</body>
+</html>
